@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 03: HTML Advance</title>
+    <style>
+        table, th, td { border: 1px solid black; border-collapse: collapse; }
+        th, td { padding: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Lab 03: HTML ระดับสูง</h1>
+    <p>โจทย์: สร้างฟอร์มลงทะเบียนกิจกรรม โดยมีช่องกรอกชื่อ, อีเมล, เพศ (radio), และตารางแสดงรายชื่อผู้ลงทะเบียน (สมมติข้อมูลตัวอย่างไว้ในตาราง)</p>
+    <hr>
+    <!-- ตัวอย่างโค้ด -->
+    <h2>ตัวอย่าง</h2>
+    <form>
+        <label>ชื่อ: <input type="text" name="name"></label><br>
+        <label>อีเมล: <input type="email" name="email"></label><br>
+        <label>เพศ:
+            <input type="radio" name="gender" value="male"> ชาย
+            <input type="radio" name="gender" value="female"> หญิง
+        </label><br>
+        <button type="submit">ลงทะเบียน</button>
+    </form>
+    <h3>ตารางรายชื่อผู้ลงทะเบียน</h3>
+    <table>
+        <tr><th>ชื่อ</th><th>อีเมล</th><th>เพศ</th></tr>
+        <tr><td>สมชาย ใจดี</td><td>somchai@email.com</td><td>ชาย</td></tr>
+        <tr><td>สมหญิง สวยงาม</td><td>somying@email.com</td><td>หญิง</td></tr>
+    </table>
+</body>
+</html>
